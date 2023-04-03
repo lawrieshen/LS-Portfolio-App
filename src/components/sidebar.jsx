@@ -24,7 +24,7 @@ function Sidebar() {
             <nav id="colorlib-main-menu">
               <ul>
                 <li><a href="https://www.linkedin.com/in/lawrence-shen-9b23791a4/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
-                <li><a href="https://medium.com/@lawrenceshen1213" target="_blank" rel="noopener noreferrer"><i className="icon-blognpmger2"></i></a></li>
+                <li><a href="https://medium.com/@lawrenceshen1213" target="_blank" rel="noopener noreferrer"><i className="icon-blogger2"></i></a></li>
                 <li><a href="https://github.com/lawrieshen" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
               </ul>
             </nav>
