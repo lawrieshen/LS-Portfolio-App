@@ -29,7 +29,7 @@ function Introduction() {
                       <div className="slider-text-inner">
                         <div className="desc">
                           <h1 style={{color: "#fff", textShadow: "1px 1px 2px grey"}}>I love building<br /> THINGS !!</h1>
-                          <p><a className="btn btn-primary btn-learn" href="https://github.com/dbarochiya" target="_blank" rel="noopener noreferrer" style={{color: "#fff", border: "1px solid #fff", textShadow: "1px 1px 2px grey", boxShadow: "1px 1px 2px grey"}}><b>View Projects </b><i className="icon-briefcase3" /></a></p>
+                          <p><a className="btn btn-primary btn-learn" href="https://github.com/lawrieshen" target="_blank" rel="noopener noreferrer" style={{color: "#fff", border: "1px solid #fff", textShadow: "1px 1px 2px grey", boxShadow: "1px 1px 2px grey"}}><b>View Projects </b><i className="icon-briefcase3" /></a></p>
                         </div>
                       </div>
                     </div>
