@@ -11,7 +11,7 @@ class App extends Component {
   render() {
     return (
       <div id="colorlib-page">
-        <div id="container-wrap">
+        <div id="container-wrap js-fullheight">
          	<Sidebar></Sidebar>
 				<div id="colorlib-main">
 					<Introduction></Introduction>
