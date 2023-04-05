@@ -21,7 +21,7 @@ function Timeline() {
                       </div>
                       <div className="timeline-label">
                         <h2>Junior Portfolio Project Analyst at Hummingbird Solutions <span>2023/01-present</span></h2>
-                        <img src="images/hummingbird.jpg" style={{maxWidth: "800px", height: "auto"}}/>
+                        <img src="images/hummingbird.jpg" style={{width: "90%", height: "auto", paddingBottom: "22.5px", margin: "auto", display: "block"}}/>
                         <p>Hummingbird Solutions is a pioneer startup combining IT services and project management consultancy. As a part of the managed service team, my role is responsible for facilitating clients onboarding project management software and providing high-level PMO insights.</p>
                         <ul>
                          <li>Providing high-level administrative support by coordinating correspondence, preparing statistical reports, handling information requests, and performing PMO work.</li> 
@@ -38,6 +38,9 @@ function Timeline() {
                       </div>
                       <div className="timeline-label">
                         <h2>Finalist at PwC Inter-Uni Case Competition 2022<span>2022/09-2022/10</span></h2>
+                        <a href="https://www.canva.com/design/DAFMGMXkrU4/QDtIONvFEBjbnsLh_oheFA/view?utm_content=DAFMGMXkrU4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" className="blog-img" target="_blank">
+                          <img src="images/pwccasecomp.jpg" className="img-responsive" style={{width: "90%", height: "auto", paddingBottom: "22.5px", margin: "auto", display: "block"}}/>
+                        </a>
                         <p>PwC aims to create sustainable infrastructure for Smart Cities through technology solutions like a smart payment system. Our team proposed JigglePay, a digital wallet with integrated government payment gateway, asset info, and carbon footprint calculator. We also suggested a BI solution for zero-carbon cities using SAP HANA Cloud, hybrid physical-cloud server architecture, and AccessibleJiggle for seniors and disabilities. We plan to partner with Australia's Be Connected Program and use Low-Earth-Orbit Satellite Network for better accessibility. Our solution was presented to PwC’s professional consultants and awarded the finalist.</p>
                         <ul>
                          <li>Proposed a Smart City Payment System solution to support the zero-carbon mission and sustainable transportation.</li> 
