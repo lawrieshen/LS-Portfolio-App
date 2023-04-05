@@ -47,6 +47,7 @@ function Timeline() {
                          <li>Designed User Experience and User Interface with Figma</li>
                          <li>Designed a server architecture for the proposed solution.</li>
                         </ul>
+                        <p style={{margin: "0px"}}><a className="btn btn-primary btn-learn" href="https://www.canva.com/design/DAFMGMXkrU4/QDtIONvFEBjbnsLh_oheFA/view?utm_content=DAFMGMXkrU4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener noreferrer" >View Presentation</a></p>
                       </div>
                     </div>
                   </article>
