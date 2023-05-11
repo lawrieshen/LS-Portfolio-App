@@ -39,7 +39,11 @@ function Timeline() {
                       <div className="timeline-label">
                         <h2>Finalist at PwC Inter-Uni Case Competition 2022<span>2022/09-2022/10</span></h2>
                         <a href="https://www.canva.com/design/DAFMGMXkrU4/QDtIONvFEBjbnsLh_oheFA/view?utm_content=DAFMGMXkrU4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" className="blog-img" target="_blank">
+<<<<<<< HEAD
                           <img src="images/pwccasecomp.jpg" className="img-rounded" />
+=======
+                          <img src="images/pwccasecomp.jpg" style={{width: "90%", height: "auto", paddingBottom: "22.5px", margin: "auto", display: "block"}}/>
+>>>>>>> 745dbdf87ba6a5c706dc19f925b5873f8cd0e918
                         </a>
                         <p>PwC aims to create sustainable infrastructure for Smart Cities through technology solutions like a smart payment system. Our team proposed JigglePay, a digital wallet with integrated government payment gateway, asset info, and carbon footprint calculator. We also suggested a BI solution for zero-carbon cities using SAP HANA Cloud, hybrid physical-cloud server architecture, and AccessibleJiggle for seniors and disabilities. We plan to partner with Australia's Be Connected Program and use Low-Earth-Orbit Satellite Network for better accessibility. Our solution was presented to PwC’s professional consultants and awarded the finalist.</p>
                         <ul>
