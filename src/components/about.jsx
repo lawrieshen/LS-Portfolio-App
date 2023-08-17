@@ -48,7 +48,7 @@ function About() {
                 </span>
                 <div className="desc">
                     <h3>Information Systems</h3>
-                    <p>Coming from the IS background, I am proficient in Software Development, Programming, Database Management, System Analysis, and IT Evaluation. I have particpated in website development projects using React.js, HTML, and CSS.</p>
+                    <p>Coming from the <SE></SE> background, I am proficient in Software Development, Programming, Database Management, System Analysis, and IT Evaluation. I have particpated in website development projects with React.</p>
                 </div>
                 </div>
             </div>
