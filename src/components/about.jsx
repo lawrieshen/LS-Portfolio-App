@@ -12,8 +12,18 @@ function About() {
                     <div className="about-desc">
                     <span className="heading-meta">About Us</span>
                     <h2 className="colorlib-heading">Who Am I?</h2>
-                    <p>I'm currently an undergrad at the University of Sydney, studying Software Engineering and Project Managment. I'm passionate about digital transformation projects and enjoy assiting organizations implement cutting-edge technologies to unlock actual business benefits.</p>
-                    <p>I've had various work experiences in different fields such as IT consultancy, E-commerce, and semiconductor industries. Currently, I'm interested for roles in IT Project Management, System Analysis, or Front-end Development.</p>
+                    <p>While Technology holds its promise to enable organizations to function more effectively and efficiently, 
+                        there may be difficulties for organizations to leverage the technology they invested at its best utility delta. 
+                        These difficulties may be due to poor change management or inadequate technology integration.
+                    </p>
+                    <p>
+                        As an aspiring penultimate Software Engineering and Project Management student at the University of Sydney, I am driven by a passion for assisting organizations in harnessing the power of technology to realize true business value. 
+                        I aim to facilitate intelligent process automation and explore other emerging technologies to help organizations optimize their organizational efficiency.
+                    </p>
+                    <p>
+                        With a unique blend of versatile technical and managerial skillsets, 
+                        I am actively seeking opportunities to dedicate myself to the realm of technology solution services.
+                    </p>
                     </div>
                 </div>
                 </div>
