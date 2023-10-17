@@ -14,7 +14,7 @@ function Introduction() {
                       <div className="slider-text-inner js-fullheight">
                         <div className="desc">
                           <h1  style={{color: "#fff", textShadow: "1px 1px 2px grey"}}>Hi! <br />I'm Lawrence</h1>
-                          <p><a className="btn btn-primary btn-learn" href="CV_LawrenceShen_202308_Nasdeq.pdf" target="_blank" rel="noopener noreferrer" style={{color: "#fff", border: "1px solid #fff", textShadow: "1px 1px 2px grey", boxShadow: "1px 1px 2px grey"}}><b>View CV </b><i className="icon-download4" /></a></p>
+                          <p><a className="btn btn-primary btn-learn" href="Lawrence Shen Resume for Careers and Employability Office.pdf" target="_blank" rel="noopener noreferrer" style={{color: "#fff", border: "1px solid #fff", textShadow: "1px 1px 2px grey", boxShadow: "1px 1px 2px grey"}}><b>View CV </b><i className="icon-download4" /></a></p>
                         </div>
                       </div>
                     </div>
