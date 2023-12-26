@@ -1,10 +1,9 @@
 import React, { Component } from 'react'
-import Draggable from "react-draggable";
 
 export default class Sidebar extends Component {
   render() {
     return (
-      <Draggable>
+      <div>
         <div>
           <nav href="#navbar" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></nav>
           <aside id="colorlib-aside" className="border js-fullheight">
@@ -39,7 +38,7 @@ export default class Sidebar extends Component {
             </div>
           </aside>
         </div>
-      </Draggable>
+      </div>
     )
   }
 }
