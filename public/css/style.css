@@ -73,7 +73,6 @@ figure {
   position: relative; }
 
 #colorlib-aside {
-  resize: horizontal;
   padding-top: 1em;
   padding-bottom: 40px;
   float: left;
@@ -1435,3 +1434,4 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
