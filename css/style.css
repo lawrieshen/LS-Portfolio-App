@@ -73,10 +73,13 @@ figure {
   position: relative; }
 
 #colorlib-aside {
+  resize: horizontal;
   padding-top: 1em;
   padding-bottom: 40px;
   float: left;
-  width: 300px;
+  height: 100vh;
+  width: 350px;
+  min-width: 300px;
   position: fixed;
   overflow: scroll;
   z-index: 1001;
@@ -218,11 +221,14 @@ figure {
             color: #2c98f0; }
 
 .container-wrap {
+  display: inline-flex;
+  height: 100vh;
+  overflow: hidden;
   max-width: 1170px;
   margin: 0 auto; }
 
 #colorlib-main {
-  width: calc(100% - 300px);
+  width: calc(100% - 350px);
   float: right;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
