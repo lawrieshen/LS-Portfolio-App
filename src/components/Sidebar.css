@@ -1,0 +1,13 @@
+/* Sidebar.css */
+
+.custom-handle {
+    width: 10px;
+    height: 100%;
+    cursor: col-resize;
+}
+
+/* Optional: Add styles for the sidebar content if needed */
+.sidebar-content {
+    width: 100%;
+    overflow: auto;
+}

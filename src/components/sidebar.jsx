@@ -1,9 +1,10 @@
-import React, { Component } from 'react';
-import { Resizable } from 'react-resizable';
+import React from 'react';
+import './Sidebar.css'; // Create a separate CSS file for your component
+import { ResizableBox } from 'react-resizable';
 
-export default class Sidebar extends Component {
+class Sidebar extends React.Component {
   state = {
-    width: 350, // Initial width of the sidebar
+    width: 200, // Initial width of the sidebar
   };
 
   onResize = (event, { size }) => {
@@ -15,13 +16,13 @@ export default class Sidebar extends Component {
     const { width } = this.state;
 
     return (
-        <Resizable
+        <ResizableBox
             width={width}
             height={Infinity}
-            handle={<div style={{ width: '10px', height: '100%', cursor: 'col-resize' }} />}
+            handle={<div className='custom-handle' />}
             onResize={this.onResize}
         >
-          <div style={{ width: `${width}px`, overflow: 'auto' }}>
+          <div>
             <div>
               <nav
                   href="#navbar"
@@ -33,7 +34,11 @@ export default class Sidebar extends Component {
               >
                 <i />
               </nav>
-              <aside id="colorlib-aside" className="border js-fullheight">
+              <aside
+                  id="colorlib-aside"
+                  className="group/sidebar border js-fullheight
+                  bg-secondary overflow-y-auto relative flex w-60 felx-col z-[9999]"
+              >
                 <div className="text-center">
                   <div
                       className="author-img"
@@ -123,10 +128,16 @@ export default class Sidebar extends Component {
                     </small>
                   </p>
                 </div>
+                <div
+                    className="opacity-0 group-hover/sidbar:opacity-100
+                    transition cursor-ew-resize absolute h-full w-1 bg-primary/10
+                    right-0 top-0"/>
               </aside>
             </div>
           </div>
-        </Resizable>
+        </ResizableBox>
     );
   }
 }
+
+export default Sidebar;
