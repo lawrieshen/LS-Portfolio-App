@@ -1,27 +1,9 @@
 import React from 'react';
-import './Sidebar.css'; // Create a separate CSS file for your component
-import { ResizableBox } from 'react-resizable';
-
 class Sidebar extends React.Component {
-  state = {
-    width: 200, // Initial width of the sidebar
-  };
-
-  onResize = (event, { size }) => {
-    this.setState({ width: size.width });
-    this.props.onSidebarResize(size.width);
-  };
 
   render() {
-    const { width } = this.state;
 
     return (
-        <ResizableBox
-            width={width}
-            height={Infinity}
-            handle={<div className='custom-handle' />}
-            onResize={this.onResize}
-        >
           <div>
             <div>
               <nav
@@ -135,7 +117,6 @@ class Sidebar extends React.Component {
               </aside>
             </div>
           </div>
-        </ResizableBox>
     );
   }
 }
