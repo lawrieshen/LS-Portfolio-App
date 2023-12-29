@@ -1435,3 +1435,27 @@ body.offcanvas {
 .js .animate-box {
   opacity: 0; }
 
+  @import 'tailwindcss/base';
+  @import 'tailwindcss/components';
+  @import 'tailwindcss/utilities';
+
+.resizeHandle {
+  width: 3px;
+  top: 0;
+  right: 0;
+  cursor: col-resize;
+  height: 100%;
+  position: absolute;
+  background-color: #f2f3f7
+}
+
+.resizeHandle:hover {
+  width: 10px;
+  top: 0;
+  right: 0;
+  cursor: col-resize;
+  height: 100%;
+  position: absolute;
+  background-color: #acacac;
+}
+  

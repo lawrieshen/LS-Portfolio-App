@@ -1,25 +1,60 @@
 import React from 'react';
+
 class Sidebar extends React.Component {
+
+  // componentDidMount() {
+      
+  //     var resizer = document.querySelector('.resizeHandle');
+  //     var sidebar = document.querySelector('.sidebar');
+
+  //     function initResizerFn(resizer, sidebar) {
+  //         //track current mouse position in x var
+  //         var x, w;
+
+  //         function rs_mousedownHandler( e ) {
+
+  //             x = e.clientX;
+
+  //             var sbWidth = window.getComputedStyle( sidebar ).width;
+  //             w = parseInt(sbWidth,10);
+
+  //             document.addEventListener("mousemove", rs_mousemoveHandler);
+  //             document.addEventListener("mouseup", rs_mouseupHandler);
+
+  //             function rs_mousemoveHandler(e){
+  //                 var dx = e.clientX - x;
+
+  //                 console.log(dx);
+                  
+  //                 var cw = w + dx; //complete width
+
+  //                 if (cw < 768) {
+  //                   sidebar.style.width = `${cw}px`;
+  //                 }
+
+
+  //             }
+
+  //             function rs_mouseupHandler(){
+  //                 //remove eventt mousemove && mouseup
+  //                 document.removeEventListener("mousemove", rs_mousemoveHandler);
+  //                 document.removeEventListener("mouseup", rs_mouseupHandler);
+  //             }
+  //         }
+
+  //         resizer.addEventListener("mousedown", rs_mousedownHandler);
+  //     }
+
+
+  //     initResizerFn(resizer, sidebar);
+  // }
 
   render() {
 
     return (
-          <div>
             <div>
-              <nav
-                  href="#navbar"
-                  className="js-colorlib-nav-toggle colorlib-nav-toggle"
-                  data-toggle="collapse"
-                  data-target="#navbar"
-                  aria-expanded="false"
-                  aria-controls="navbar"
-              >
-                <i />
-              </nav>
               <aside
                   id="colorlib-aside"
-                  className="group/sidebar border js-fullheight
-                  bg-secondary overflow-y-auto relative flex w-60 felx-col z-[9999]"
               >
                 <div className="text-center">
                   <div
@@ -110,13 +145,8 @@ class Sidebar extends React.Component {
                     </small>
                   </p>
                 </div>
-                <div
-                    className="opacity-0 group-hover/sidbar:opacity-100
-                    transition cursor-ew-resize absolute h-full w-1 bg-primary/10
-                    right-0 top-0"/>
               </aside>
             </div>
-          </div>
     );
   }
 }
