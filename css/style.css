@@ -580,6 +580,8 @@ body.offcanvas {
     margin-left: 10px; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
+  display: flex;
+  flex-direction: column;
   position: relative;
   background: #f2f3f7;
   padding: 1.5em;
@@ -620,8 +622,35 @@ body.offcanvas {
   filter: alpha(opacity=40);
   font-size: 16px; }
 
-.services {
+.timeline-label > p {
+  padding-left: 1em;
+}
+
+.timeline-label > img {
+  width: 90%;
+  height: auto;
+  padding-bottom: 22.5px;
+  margin: auto; 
+  display: block;
+}
+
+.timeline-label .title-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.timeline-label .title-box span {
   margin-bottom: 30px;
+  -webkit-opacity: .4;
+  -moz-opacity: .4;
+  opacity: .4;
+  -ms-filter: alpha(opacity=40);
+  filter: alpha(opacity=40);
+  font-size: 16px; }
+
+
+.services {
   padding: 1.5em;
   -webkit-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
   -moz-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
@@ -639,6 +668,10 @@ body.offcanvas {
     font-family: "Quicksand", Arial, sans-serif;
     font-size: 16px;
     font-weight: 500; }
+  .services.color-1{
+    border-bottom: 2px solid #2c98f0;}
+    .services.color-1 .icon2 i {
+      color: #2c98f0;}
   .services.color-2 {
     border-bottom: 2px solid #ec5453; }
     .services.color-2 .icon2 i {
@@ -657,12 +690,11 @@ body.offcanvas {
     border-bottom: 2px solid #4054b2; }
 
 .services {
-  margin-bottom: 80px;
   position: relative;
   z-index: 0; }
   @media screen and (max-width: 768px) {
     .services {
-      margin-bottom: 4em; } }
+       } }
   .services .icon {
     position: absolute;
     top: -20px;
@@ -1427,17 +1459,20 @@ body.offcanvas {
       padding-bottom: 1em; } }
 
 .row-pt-md {
-  padding-top: 3em; }
+  display: flex;
+  padding-top: 3em;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  align-content: stretch;
+  flex-wrap: wrap; }
 
 .col-padding {
   padding: 10px !important; }
 
 .js .animate-box {
+  display: flex;
   opacity: 0; }
-
-  @import 'tailwindcss/base';
-  @import 'tailwindcss/components';
-  @import 'tailwindcss/utilities';
 
 .resizeHandle {
   width: 3px;
