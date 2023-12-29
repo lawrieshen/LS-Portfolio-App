@@ -23,7 +23,7 @@ function Timeline() {
                         <div className='title-box' style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                           <h2>Junior Portfolio Project Analyst at Hummingbird Solutions</h2> <span>2023/01-present</span>
                         </div>
-                        <img src="images/hummingbird.jpg" className='image-responsive' />
+                        <img src="images/hummingbird.jpg" className='img-responsive' />
                         <p>Hummingbird Solutions is a pioneer startup combining IT services and project management consultancy. As a part of the managed service team, my role is responsible for facilitating clients onboarding project management software and providing high-level PMO insights.</p>
                         <ul>
                          <li>Providing high-level administrative support by coordinating correspondence, preparing statistical reports, handling information requests, and performing PMO work.</li> 
