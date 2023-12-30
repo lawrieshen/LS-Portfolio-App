@@ -1,5 +1,6 @@
-var resizer = document.querySelector('.resizeHandle');
-var sidebar = document.querySelector('.sidebar');
+document.addEventListener("DOMContentLoaded", function() {
+    var resizer = document.querySelector('.resizeHandle');
+    var sidebar = document.querySelector('.sidebar');
 
       function initResizerFn(resizer, sidebar) {
           //track current mouse position in x var
@@ -17,8 +18,6 @@ var sidebar = document.querySelector('.sidebar');
 
               function rs_mousemoveHandler(e){
                   var dx = e.clientx - x;
-
-                  console.log(dx);
                   
                   var cw = w + dx; //complete width
 
@@ -40,5 +39,7 @@ var sidebar = document.querySelector('.sidebar');
       }
 
 
-document.addEventListener("DOMContentLoaded", initResizerFn(resizer, sidebar));    
+    initResizerFn(resizer, sidebar);
+
+});
         
