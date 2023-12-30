@@ -9,7 +9,7 @@ class Sidebar extends React.Component {
               <aside
                   id="colorlib-aside"
               >
-                <div className="text-center">
+                <div className="text-center" style={{paddingBottom: "20px"}}>
                   <div
                       className="author-img"
                       style={{ backgroundImage: 'url(images/image-profile.jpg)' }}
@@ -83,10 +83,10 @@ class Sidebar extends React.Component {
                     </li>
                   </ul>
                 </nav>
-                <div className="colorlib-footer">
+                <div className="colorlib-footer" style={{position: "absolute", bottom: "0"}}>
                   <p>
                     <small>
-                      Thanks{' '}
+                      Inspired by {' '}
                       <a
                           href="https://colorlib.com"
                           target="_blank"
@@ -94,7 +94,6 @@ class Sidebar extends React.Component {
                       >
                         Colorlib
                       </a>{' '}
-                      for inspiration
                     </small>
                   </p>
                 </div>
