@@ -12,13 +12,11 @@ circles.forEach(function (circle, index) {
   circle.style.backgroundColor = colors[index % colors.length];
 });
 
-window.addEventListener("mousemove", mousemoveHandler);
-
-function mousemoveHandler(e) {
-  coords.x = e.clientX;
-  coords.y = e.clientY;
-  
-}
+$(document).on("mousemove", function (e) {
+    e.preventDefault();
+    coords.x = e.clientX;
+    coords.y = e.clientY;
+});
 
 function animateCircles() {
   offset = 12;
@@ -40,7 +38,7 @@ function animateCircles() {
     
   });
   
-  requestAnimationFrame(animateCircles);
+  setTimeout(animateCircles, 1000 / 60); // 60 frames per second
 }
 
 animateCircles();

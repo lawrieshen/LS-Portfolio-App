@@ -40,4 +40,5 @@ var sidebar = document.querySelector('.sidebar');
       }
 
 
-      initResizerFn(resizer, sidebar);      
+document.addEventListener("DOMContentLoaded", initResizerFn(resizer, sidebar));    
+        
