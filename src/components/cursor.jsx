@@ -9,12 +9,6 @@ function Cursor() {
             <div className="circle"/><div className="circle"/>
             <div className="circle"/><div className="circle"/>
             <div className="circle"/><div className="circle"/>
-            <div className="circle"/><div className="circle"/>
-            <div className="circle"/><div className="circle"/>
-            <div className="circle"/><div className="circle"/>
-            <div className="circle"/><div className="circle"/>
-            <div className="circle"/><div className="circle"/>
-            <div className="circle"/><div className="circle"/>
         </div>
         
     )
