@@ -1489,7 +1489,8 @@ body.offcanvas {
   cursor: col-resize;
   height: 100%;
   position: absolute;
-  background-color: #f2f3f7
+  background-color: #f2f3f7;
+  z-index: 1010;
 }
 
 .resizeHandle:hover {
@@ -1500,6 +1501,7 @@ body.offcanvas {
   height: 100%;
   position: absolute;
   background-color: #acacac;
+  z-index: 1010;
 }
 
 .circle {
@@ -1510,5 +1512,6 @@ body.offcanvas {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1002;
+  z-index: 2000;
+  pointer-events: none;
 }

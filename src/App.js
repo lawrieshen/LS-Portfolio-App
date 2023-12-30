@@ -15,9 +15,7 @@ class App extends Component {
             <div id="colorlib-page">
                 <Cursor/>   
                 <div id="container-wrap js-fullheight">
-                    <Sidebar class="sidebar">
-                        <div class="resizeHandle"/>
-                    </Sidebar>
+                    <Sidebar />
                     <div id="colorlib-main">
                         <Introduction />
                         <About />

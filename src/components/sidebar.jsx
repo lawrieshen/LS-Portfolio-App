@@ -55,7 +55,9 @@ class Sidebar extends React.Component {
             <div>
               <aside
                   id="colorlib-aside"
+                  className='sidebar'
               >
+                <div className='resizeHandle'/>
                 <div className="text-center">
                   <div
                       className="author-img"
