@@ -1501,14 +1501,4 @@ body.offcanvas {
   position: absolute;
   background-color: #acacac;
 }
-
-.circle {
-  height: 24px;
-  width: 24px;
-  border-radius: 24px;
-  background-color: black;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
   
