@@ -95,6 +95,16 @@ class Sidebar extends React.Component {
                 <div className="colorlib-footer" style={{position: "absolute", bottom: "0"}}>
                   <p>
                     <small>
+                      Coded by {' '}
+                      <a
+                        href='https://github.com/lawrieshen/LS-Portfolio-App'
+                        target='_blank'
+                        rel="noopener noreferrer"
+                      >
+                        Lawrence Shen
+                      </a> {' '}
+                    </small>
+                    <small>
                       Inspired by {' '}
                       <a
                           href="https://colorlib.com"
