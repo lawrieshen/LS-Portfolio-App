@@ -81,6 +81,15 @@ class Sidebar extends React.Component {
                         <i className="icon-blogger2" />
                       </a>
                     </li>
+                    <li>
+                      <a
+                        href='https://www.behance.net/lawrenceshen2'
+                        target='_blank'
+                        rel="noopener noreferrer"
+                      >
+                        <i className='icon-behance'/>
+                      </a>
+                    </li>
                   </ul>
                 </nav>
                 <div className="colorlib-footer" style={{position: "absolute", bottom: "0"}}>
