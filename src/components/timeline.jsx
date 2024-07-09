@@ -14,6 +14,22 @@ function Timeline() {
             <div className="row">
               <div className="col-md-12">
                 <div className="timeline-centered">
+                <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-1">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <div className='title-box' style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                          <h2>Fullstack Software Developer at Mii</h2> <span>2024/06-present</span>
+                        </div>
+                        <p>Mii is the health passport, allowing doctors to access your past and current patient information in our EHR system. Electronic Health Records systems face two main issues: poor interoperability between healthcare providers and inadequate safety of patient records. Think of Mii as your healthcare passport. Mii allows doctors to access all past and current medical information in our EHR system and offers patients a consolidated view of their medical data.</p>
+                        <ul>
+                         <li>Developing Mii iOS application using Swift</li> 
+                        </ul>
+                      </div>
+                    </div>
+                  </article>
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-3">
@@ -21,7 +37,7 @@ function Timeline() {
                       </div>
                       <div className="timeline-label">
                         <div className='title-box' style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                          <h2>Junior Portfolio Project Analyst at Hummingbird Solutions</h2> <span>2023/01-present</span>
+                          <h2>Junior Portfolio Project Analyst at Hummingbird Solutions</h2> <span>2023/01-2023/05</span>
                         </div>
                         <img src="images/hummingbird.jpg" className='img-responsive' />
                         <p>Hummingbird Solutions is a pioneer startup combining IT services and project management consultancy. As a part of the managed service team, my role is responsible for facilitating clients onboarding project management software and providing high-level PMO insights.</p>

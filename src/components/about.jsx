@@ -57,8 +57,8 @@ function About() {
                     <i className="icon-data" />
                 </span>
                 <div className="desc">
-                    <h3>Information Systems</h3>
-                    <p>Coming from the SE background, I am proficient in Software Development, Programming, Database Management, System Analysis, and IT Evaluation. I have particpated in website development projects with React.</p>
+                    <h3>Software Development</h3>
+                    <p>Coming from a Software Engineering background, I am proficient in Full-tack Software Development. I have particpated in website development projects using React and iOS development projects using Swift.</p>
                 </div>
                 </div>
             </div>
