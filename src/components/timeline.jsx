@@ -21,11 +21,32 @@ function Timeline() {
                       </div>
                       <div className="timeline-label">
                         <div className='title-box' style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                          <h2>Fullstack Software Developer at Mii</h2> <span>2024/06-present</span>
+                          <h2>iOS Software Developer at Mii</h2> <span>2024/06-present</span>
                         </div>
                         <p>Mii is the health passport, allowing doctors to access your past and current patient information in our EHR system. Electronic Health Records systems face two main issues: poor interoperability between healthcare providers and inadequate safety of patient records. Think of Mii as your healthcare passport. Mii allows doctors to access all past and current medical information in our EHR system and offers patients a consolidated view of their medical data.</p>
                         <ul>
-                         <li>Developing Mii iOS application using Swift</li> 
+                         <li>Developing Mii iOS application using Swift</li>
+                         <li>Handled User Authentication and Datamangement with Firebase, allowing users to manage their medical information.</li> 
+                        </ul>
+                      </div>
+                    </div>
+                  </article>
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-2">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <div className='title-box' style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                          <h2>Student Software Developer at Jacaranda Flame Consulting (University of Sydney)</h2> <span>2024/06-2024/07</span>
+                        </div>
+                        <img src="images/jfc.jpg" className='img-responsive' />
+                        <p>During my consultancy with Jacaranda Flame Consulting and Ampol, I helped develop an AI-driven ETL software to automate data processing for Ampol, enhancing operational efficiency. This experience highlighted the transformative potential of AI in enterprise workflows.</p>
+                        <ul>
+                          <li>Collaborated with a talented team to design and develop an AI-driven Extract, Load, Transform (ETL) software solution for Ampol.</li>
+                          <li>Successfully automated data processing pipelines, significantly enhancing operational efficiency.</li>
+                          <li>Gained hands-on experience in AI technologies and their impact on enterprise workflows, contributing to effective problem-solving and process optimization.</li>
+                          <a href="https://www.linkedin.com/posts/lawrence-shen-9b23791a4_reflecting-on-my-journey-as-a-consulting-activity-7222569085845266433-pVo-?utm_source=share&utm_medium=member_desktop" target="_blank" rel="noopener noreferrer"> For more details, visit my LinkedIn post.</a>
                         </ul>
                       </div>
                     </div>
