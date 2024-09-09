@@ -40,7 +40,7 @@ function Timeline() {
                         <div className='title-box' style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                           <h2>Student Software Developer at Jacaranda Flame Consulting (University of Sydney)</h2> <span>2024/06-2024/07</span>
                         </div>
-                        <img src="images/jfc.jpg" className='img-responsive' />
+                        <img src="images/jfc.jpeg" className='img-responsive' />
                         <p>During my consultancy with Jacaranda Flame Consulting and Ampol, I helped develop an AI-driven ETL software to automate data processing for Ampol, enhancing operational efficiency. This experience highlighted the transformative potential of AI in enterprise workflows.</p>
                         <ul>
                           <li>Collaborated with a talented team to design and develop an AI-driven Extract, Load, Transform (ETL) software solution for Ampol.</li>
