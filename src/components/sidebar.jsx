@@ -12,7 +12,7 @@ class Sidebar extends React.Component {
                 <div className="text-center" style={{paddingBottom: "20px"}}>
                   <div
                       className="author-img"
-                      style={{ backgroundImage: 'url(images/image-profile.jpg)' }}
+                      style={{ backgroundImage: 'url(images/image-profile.png)' }}
                   />
                   <h1 id="colorlib-logo">
                     <a href="index.html">Lawrence Shen</a>
