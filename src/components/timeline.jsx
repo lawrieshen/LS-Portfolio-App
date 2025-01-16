@@ -21,7 +21,7 @@ function Timeline() {
                       </div>
                       <div className="timeline-label">
                         <div className='title-box' style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                          <h2>iOS Software Developer at Mii</h2> <span>2024/06-present</span>
+                          <h2>iOS Software Developer at Mii</h2> <span>2024/06-2024/11</span>
                         </div>
                         <img src='images/mii_app.png' className='image-responsive'/>
                         <p>Mii is the health passport, allowing doctors to access your past and current patient information in our EHR system. Electronic Health Records systems face two main issues: poor interoperability between healthcare providers and inadequate safety of patient records. Think of Mii as your healthcare passport. Mii allows doctors to access all past and current medical information in our EHR system and offers patients a consolidated view of their medical data.</p>
