@@ -12,17 +12,22 @@ function About() {
                     <div className="about-desc">
                     <span className="heading-meta">About Us</span>
                     <h2 className="colorlib-heading">Who Am I?</h2>
-                    <p>While Technology holds its promise to enable organizations to function more effectively and efficiently, 
-                        there may be difficulties for organizations to leverage the technology they invested at its best utility delta. 
-                        These difficulties may be due to poor change management or inadequate technology integration.
-                    </p>
-                    <p>
-                        As an aspiring penultimate Software Engineering and Project Management student at the University of Sydney, I am driven by a passion for assisting organizations in harnessing the power of technology to realize true business value. 
-                        I aim to facilitate intelligent process automation and explore other emerging technologies to help organizations optimize their organizational efficiency.
-                    </p>
+                    <p>While technology holds immense potential to enhance organizational effectiveness and efficiency, 
+                        many organizations struggle to fully unlock its benefits. Often, these challenges arise from poor 
+                        change management or ineffective technology integration, limiting the 
+                        transformative power technology can offer.</p>
+                    <p>As a dedicated penultimate Software Engineering and Project Management student at 
+                        the University of Sydney, I am driven by a strong desire to make a meaningful difference in the
+                         world through technology. My passion lies in applying innovative solutions to the health tech 
+                         sector, where I believe technology can have the greatest positive impact. I aim to help 
+                         organizations adopt sustainable, ethical technologies that not only optimize efficiency but 
+                         also improve the well-being of individuals and communities. By facilitating intelligent process 
+                         automation and exploring emerging technologies, I hope to contribute to creating a healthier, 
+                         more equitable world.
+                         </p>
                     <p>
                         With a unique blend of versatile technical and managerial skillsets, 
-                        I am actively seeking opportunities to dedicate myself to the realm of technology solution services.
+                        I am actively seeking opportunities to dedicate myself to the realm of technology.
                     </p>
                     </div>
                 </div>
