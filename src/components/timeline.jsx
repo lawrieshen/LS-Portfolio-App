@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
+import { Unity, useUnityContext } from "react-unity-webgl"
 
 function Timeline() {
+
     return (
       <div>
         <section className="colorlib-experience" data-section="timeline">
@@ -14,7 +16,25 @@ function Timeline() {
             <div className="row">
               <div className="col-md-12">
                 <div className="timeline-centered">
-                <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div className="timeline-entry-inner" style={{width:'100%'}}>
+                      <div className="timeline-icon color-7">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <div className='title-box' style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                          <h2>Unity Essentials Project</h2> <span>2025/01</span>
+                        </div>
+                        {/* Embed Unity WebGL */}
+                        <img src='images/unity.png' className='image-responsive'/>                
+                        <ul>
+                         <li>Developed a Unity-based project to demonstrate proficiency in Unity and C# programming</li>
+                         <li><a href="https://play.unity.com/en/games/ad48aa21-9ca4-41a3-be53-355d0eb206c5/unity-essentials-demo" target="_blank">Link to Unity Play</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </article>
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-1">
                         <i className="icon-pen2" />
@@ -24,7 +44,7 @@ function Timeline() {
                           <h2>iOS Software Developer at Mii</h2> <span>2024/06-2024/11</span>
                         </div>
                         <img src='images/mii_app.png' className='image-responsive'/>
-                        <p>Mii is the health passport, allowing doctors to access your past and current patient information in our EHR system. Electronic Health Records systems face two main issues: poor interoperability between healthcare providers and inadequate safety of patient records. Think of Mii as your healthcare passport. Mii allows doctors to access all past and current medical information in our EHR system and offers patients a consolidated view of their medical data.</p>
+                        <p><a href='https://www.miistartup.com/'>Mii</a> is the health passport, allowing doctors to access your past and current patient information in our EHR system. Electronic Health Records systems face two main issues: poor interoperability between healthcare providers and inadequate safety of patient records. Think of Mii as your healthcare passport. Mii allows doctors to access all past and current medical information in our EHR system and offers patients a consolidated view of their medical data.</p>
                         <ul>
                          <li>Developing Mii iOS application using Swift</li>
                          <li>Handled User Authentication and Datamangement with Firebase, allowing users to manage their medical information.</li> 
