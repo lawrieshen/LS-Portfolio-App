@@ -16,7 +16,7 @@ function Timeline() {
             <div className="row">
               <div className="col-md-12">
                 <div className="timeline-centered">
-                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                  {/* <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner" style={{width:'100%'}}>
                       <div className="timeline-icon color-7">
                         <i className="icon-pen2" />
@@ -26,14 +26,14 @@ function Timeline() {
                           <h2>Unity Essentials Project</h2> <span>2025/01</span>
                         </div>
                         {/* Embed Unity WebGL */}
-                        <img src='images/unity.png' className='image-responsive'/>                
+                        {/* <img src='images/unity.png' className='image-responsive'/>                
                         <ul>
                          <li>Developed a Unity-based project to demonstrate proficiency in Unity and C# programming</li>
                          <li><a href="https://play.unity.com/en/games/ad48aa21-9ca4-41a3-be53-355d0eb206c5/unity-essentials-demo" target="_blank">Link to Unity Play</a></li>
                         </ul>
                       </div>
                     </div>
-                  </article>
+                  </article> */}
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-1">
